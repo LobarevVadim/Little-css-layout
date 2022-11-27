@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+:root {
+  --dark: #333;
+  --primar: #bdc8d8;
+  --light: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+.hero {
+  padding-top: 8vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: url(./nature.jpg) 0 0 / cover no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.fl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.title {
+  font-size: 8vw;
+  font-weight: 400;
+  letter-spacing: 6vw;
+  margin-left: 6vw;
+}
+
+.title::after {
+  right: 0;
+}
+.descr {
+  font-size: 2vw;
+}
+
+.line {
+  width: 15vw;
+  height: 3px;
+  background: #fff;
+}
+/* ............................................................................... */
+.sb {
+  padding-top: 2vh;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.bg {
+  background: url(./wheat.jpg) 0 0 / cover no-repeat;
+  height: 60vh;
+}
+.rotate {
+  margin-top: -8vh;
+  width: 101vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  transform: rotate(-3deg);
+  background-color: #fff;
+}
+.lt {
+  width: 55vw;
+  height: 3px;
+  background: #000;
+  order: 2;
+  margin-left: auto;
+}
+.content {
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.item__title {
+  font-size: 3vw;
+  font-weight: 400;
+}
+.item__desc {
+  font-size: 1.5vw;
+  font-weight: 300;
+  padding: 2vw;
+}
+.vl {
+  height: 30vh;
+  width: 3px;
+  background-color: #000;
+}
+#item__ico1 {
+  font-size: 8vw;
+  font-weight: 400;
+}
+#item__ico2 {
+  font-size: 8vw;
+  font-weight: 400;
+}
+#item__ico3 {
+  font-size: 8vw;
+  font-weight: 400;
+}
+/* ............................................................................... */
+.tb {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  padding: 0 5vw;
+}
+.text1 {
+  display: grid;
+  align-self: end;
+  margin-bottom: 5vw;
+  gap: 3vw;
+}
+.bg2 {
+  background: url(./leaves.png) 0 0 / cover no-repeat;
+  z-index: -1;
+}
+.bg_img {
+}
+.text2 {
+  display: grid;
+  align-content: center;
+  gap: 5vw;
+}
+.line2 {
+  position: absolute;
+  background-color: #000;
+  top: 225vh;
+  width: 30vw;
+  height: 3px;
+  right: 2vw;
+}
+.about-title {
+  font-size: 7vw;
+  letter-spacing: 1vw;
+  position: relative;
+  left: -20%;
+}
+.decription {
+  max-width: 300px;
+  position: relative;
+
+  left: 20%;
+}
+/* ............................................................................... */
